@@ -1,4 +1,4 @@
-from . import file as SUT
+import file as SUT
 
 def test_divideFunc_valid():
   assert SUT.divideFunc(5,2) == 2.5
